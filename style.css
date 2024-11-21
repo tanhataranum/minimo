@@ -1,0 +1,211 @@
+/*common css start*/
+ body{
+    margin: 0 ;
+  font-family: "playfair", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626262;
+
+ }
+/*common css end*/
+/*header start*/
+header{
+    padding: 60px 0;
+    /*border-bottom: 1px solid;*/
+
+}
+.container{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+    /*border: 1px solid red;*/
+}
+.logo{
+    margin-top: 7px;
+    float: left;
+    width: 13%;
+    /*border: 1px solid red;*/
+}
+.logo a{
+    display: block;
+}
+.logo a img{
+    width: 100% ;
+}
+.menu{
+    float: right;
+    width: 65%;
+    /*border: 1px solid red;*/
+}
+.menu ul{
+    float: right;
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: inline-block;
+    margin: 0 50px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    /*border-bottom: 1px solid transparent;*/
+}
+.menu ul li:last-child a{
+   margin-right: 0;
+}
+.menu ul li a:hover{
+    /*border-bottom: 1px solid #626262;*/
+}
+
+/*header end*/
+/*banner start*/
+
+.banner{}
+.b_img{}
+ .b_img img{
+    width: 100%;
+ }
+
+/*banner end*/
+/*perfect start*/
+
+.perfect{
+    padding: 100px 0 100px;
+}
+.container2{
+    margin: 0 auto;
+   width: 80%;
+   /*border: 1px solid;*/
+}
+.p_content{}
+.c_light{
+    margin-bottom: 0;
+font-family: "ubuntu", sans-serif;
+font-size: 14px;
+font-weight: 300;
+text-transform: uppercase;
+}
+.p_tittle{
+    margin: 15px 0 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_p{
+    margin: 0;
+    line-height: 24px;
+}
+.c_link{
+    margin-top: 35px;
+    display: block;
+    color: #626262;
+    text-decoration: none;
+}
+
+/*perfect end*/
+/*feature start*/
+
+.blog{
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+    /*border: 1px solid red;*/
+}
+.f_content{ 
+    overflow: hidden;
+}
+
+.f_img{
+    
+}
+.f_img img{
+    width: 100%;
+}
+.f_single{
+    width: 44.5%;
+    /*border: 1px solid;*/
+    font-family: "ubuntu", sans-serif;
+    color: #626262;
+    padding: 30px 1.5% 45px;
+    float: left;
+    margin-right: 34px;
+}
+.f_single:last-child{
+    margin-right: 0;}
+.f_light{
+    margin-bottom: 0;
+   
+font-family: "ubuntu", sans-serif;
+font-size: 14px;
+font-weight: 300;
+text-transform: uppercase;
+}
+.f_tittle{
+    margin: 15px 0 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.f_p{
+    margin: 0;
+    line-height: 24px;
+    font-family: "ubuntu", sans-serif;
+}
+/*feature end*/
+
+
+
+
+/*news start*/
+
+
+.news{
+background-color: #f0f0f0;
+padding: 70px 0;
+}
+.signup{
+text-align: center;
+}
+
+.s_h1{
+color: #333333;
+margin-top: 0;
+margin-bottom: 70px;
+}
+.s_form{
+    position: relative;
+width: 400px;
+/*border: 5px solid red;*/
+margin:auto;
+}
+.s_form input{
+    font-family: "playfair", serif;
+    font-size: 14px;
+    color: #626262;
+    width: 380px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background-color: transparent;
+    padding-left: 5px;
+    padding-right: 45px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+
+}
+.s_form button:focus{
+outline: 0;
+}
+.s_form button img{}
+ 
+
+/*news end*/
